@@ -7,7 +7,7 @@ O **My Finances** é uma aplicação Full Stack (ou Front-end, dependendo da sua
 ---
 
 ## 🔗 Links e Deploy
-- **🚀 Visualizar Projeto:** https://falasembloqueio-create.github.io/my-finances/
+- **🚀 Visualizar Projeto:** https://falasembloqueio-create.github.io/my-finance/
 - **📂 Repositório Atual:** `https://github.com/davigomes06/my-finances`
 
 ---
