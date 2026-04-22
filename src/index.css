@@ -1,0 +1,32 @@
+@tailwindcss/postcss
+
+@layer components {
+  .input-store {
+    @apply w-full bg-slate-950 border border-slate-800 rounded-2xl px-5 py-3 text-white outline-none transition-all text-sm shadow-inner;
+  }
+  .input-store:focus {
+    border-color: #8b5cf6;
+  }
+}
+
+/* RESET TOTAL PARA CENTRALIZAR */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #020617;
+}
+
+body {
+  display: grid;
+  place-items: start center; /* Centraliza horizontalmente e encosta no topo */
+  color: #f8fafc;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Garante que o conteúdo do React centralize */
+}
